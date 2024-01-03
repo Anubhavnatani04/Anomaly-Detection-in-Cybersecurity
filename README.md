@@ -5,27 +5,27 @@ This repository contains a machine learning project focused on anomaly detection
 ## Files Included
 
 - **anomaly_detection_model.ipynb**: Jupyter Notebook containing the trained Feedforward Neural Network (FNN) model for anomaly detection.
-- **anomaly_detection.py**: Real-time anomaly detection program suitable for integration.
+- **alert_system.py**: Real-time anomaly detection and alert system program suitable for integration.
 - **KDDTrain+.txt**: Dataset used for training and testing the model (KDDTrain+ used in the project).
 - **preprocess+model_file.ipynb**: Jupyter Notebook comprising the trained model and preprocessing code used in the project.
 - **preprocessing_module.py**: Preprocessing module containing functions and commands for data preprocessing tailored for this project.
-- **trained_model.h5**: Saved model file (HDF5 format) that can be imported and used in `anomaly_detection.py` for real-time integration.
+- **trained_model.h5**: Saved model file (HDF5 format) that can be imported and used in `alert_system.py` for real-time integration.
 
 ## Usage
 
 - **anomaly_detection_model.ipynb**: Open this notebook to explore the trained model and understand the anomaly detection process.
-- **anomaly_detection.py**: Use this file for real-time anomaly detection integration into your system.
+- **alert_system.py**: Use this file for real-time anomaly detection integration into your system.
 - **KDDTrain+.txt**: Dataset used for training the model.
 - **preprocess+model_file.ipynb**: Access this notebook to study the preprocessing techniques applied to the data before training the model.
 - **preprocessing_module.py**: Utilize this module to preprocess your own data using the functions provided.
-- **trained_model.h5**: Import this model into `anomaly_detection.py` for real-time anomaly detection.
+- **trained_model.h5**: Import this model into `alert_system.py` for real-time anomaly detection.
 
 ## How to Use
 
 1. Open `anomaly_detection_model.ipynb` to understand the model and its performance on the provided dataset.
 2. Explore `preprocess_model_file.ipynb` to understand the preprocessing steps applied to the dataset.
 3. Use `preprocessing_module.py` to preprocess your data similarly.
-4. Import `trained_model.h5` into `anomaly_detection.py` for real-time anomaly detection integration.
+4. Import `trained_model.h5` into `alert_system.py` for real-time anomaly detection integration.
 
 ## License
 
