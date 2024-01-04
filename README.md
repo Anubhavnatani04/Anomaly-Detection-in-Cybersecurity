@@ -10,6 +10,7 @@ This repository contains a machine learning project focused on anomaly detection
 - **preprocess+model_file.ipynb**: Jupyter Notebook comprising the trained model and preprocessing code used in the project.
 - **preprocessing_module.py**: Preprocessing module containing functions and commands for data preprocessing tailored for this project.
 - **trained_model.h5**: Saved model file (HDF5 format) that can be imported and used in `alert_system.py` for real-time integration.
+- **KDDTest+.txt**: Dataset used for testing the `alert_system.py` application.
 
 ## Usage
 
@@ -19,6 +20,7 @@ This repository contains a machine learning project focused on anomaly detection
 - **preprocess+model_file.ipynb**: Access this notebook to study the preprocessing techniques applied to the data before training the model.
 - **preprocessing_module.py**: Utilize this module to preprocess your own data using the functions provided.
 - **trained_model.h5**: Import this model into `alert_system.py` for real-time anomaly detection.
+- **KDDTest+.txt**: Dataset used for testing the `alert_system.py` application.
 
 ## How to Use
 
